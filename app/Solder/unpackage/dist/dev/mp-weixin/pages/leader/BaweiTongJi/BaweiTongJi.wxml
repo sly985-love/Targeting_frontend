@@ -1,0 +1,1 @@
+<view class="page"><view class="{{['header',(isFixed)?'is_fixed':'']}}" id="boxFixed"><navigator url="../nowBawei/nowBawei">实时靶位</navigator><navigator url="../BaweiLog/BaweiLog">实时记录</navigator><navigator style="border-bottom:#DD524D 8rpx solid;color:#000000;" url>实时统计</navigator><navigator url="../leaderMe/leaderMe">我的</navigator></view></view>

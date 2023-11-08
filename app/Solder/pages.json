@@ -1,0 +1,142 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"app-plus":{
+					"titleNView":false //开启原生导航栏（主要针对于H5、平板）
+				},
+				"navigationBarTitleText": "智慧靶感知系统"
+			}
+		},
+		{
+			"path": "pages/app/login/soldier_login",
+			"style": {
+				"app-plus":{
+					"titleNView":false //开启原生导航栏（主要针对于H5、平板）
+				},
+				"navigationBarTitleText": "智慧靶感知系统战士登录"
+			}
+		},
+		{
+			"path": "pages/app/login/leader_login",
+			"style": {
+				"app-plus":{
+					"titleNView":false //开启原生导航栏（主要针对于H5、平板）
+				},
+				"navigationBarTitleText": "智慧靶感知系统指导员登录"
+			}
+		},
+		{
+			"path": "pages/app/historyLog/historyLog",
+			"style": {
+				"app-plus":{
+					"titleNView":false //开启原生导航栏（主要针对于H5、平板）
+				},
+				"navigationBarTitleText": "智慧靶感知系统"
+			}
+		},
+		{
+			"path": "pages/app/watch/watch",
+			"style": {
+				"app-plus":{
+					"titleNView":false //开启原生导航栏（主要针对于H5、平板）
+				},
+				"navigationBarTitleText": "智慧靶感知系统"
+			}
+		},
+		{
+			"path": "pages/app/grade/grade",
+			"style": {
+				"app-plus":{
+					"titleNView":false //开启原生导航栏（主要针对于H5、平板）
+				},
+				"navigationBarTitleText": "智慧靶感知系统"
+			}
+		},
+		{
+			"path": "pages/app/me/me",
+			"style": {
+				"app-plus":{
+					"titleNView":false //开启原生导航栏（主要针对于H5、平板）
+				},
+				"navigationBarTitleText": "智慧靶感知系统"
+			}
+		},
+		{
+			"path": "pages/leader/nowBawei/nowBawei",
+			"style": {
+				"app-plus":{
+					"titleNView":false //开启原生导航栏（主要针对于H5、平板）
+				},
+				"navigationBarTitleText": "所有靶位情况实时展示"
+			}
+		},
+		{
+			"path": "pages/leader/BaweiLog/BaweiLog",
+			"style": {
+				"app-plus":{
+					"titleNView":false //开启原生导航栏（主要针对于H5、平板）
+				},
+				"navigationBarTitleText": "智慧靶感知系统"
+			}
+		},
+		{
+			"path": "pages/leader/BaweiTongJi/BaweiTongJi",
+			"style": {
+				"app-plus":{
+					"titleNView":false //开启原生导航栏（主要针对于H5、平板）
+				},
+				"navigationBarTitleText": "智慧靶感知系统"
+			}
+		},
+		{
+			"path": "pages/leader/leaderMe/leaderMe",
+			"style": {
+				"app-plus":{
+					"titleNView":false //开启原生导航栏（主要针对于H5、平板）
+				},
+				"navigationBarTitleText": "智慧靶感知系统"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": { //tabBar--底部
+		"color": "#8F8F94",
+		"selectedColor": "#3F536E",
+		"borderStyle": "black",
+		"backgroundColor": "#FFFFFF",
+		"list": [ //list:页面列表
+			//一个页面一个对象{}  一个{}代表一个页面tab
+			{
+				"pagePath": "pages/app/historyLog/historyLog",  //链接地址
+				"text": "历史打靶", //需要显示的文字
+				"iconPath":"static/icon/history2.png",  //图标
+				"selectedIconPath": "static/icon/history.png"//点击后的图标路径
+			},
+			{
+				"pagePath": "pages/app/watch/watch", 
+				"text": "实时查看",
+				"iconPath": "static/icon/look2.png", //图标
+				"selectedIconPath": "static/icon/look.png" //点击后的图标路径
+			},
+			{
+				"pagePath": "pages/app/grade/grade", 
+				"text": "成绩分析",
+				"iconPath": "static/icon/grade2.png", //图标
+				"selectedIconPath": "static/icon/grade3.png" //点击后的图标路径
+			},
+			{
+				"pagePath": "pages/app/me/me", //我的
+				"text": "我的",
+				"iconPath": "static/icon/me2.png", //图标
+				"selectedIconPath": "static/icon/me.png" //点击后的图标路径
+			}
+		]
+	}
+}

@@ -1,0 +1,56 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/app/login/soldier_login",
+    "pages/app/login/leader_login",
+    "pages/app/historyLog/historyLog",
+    "pages/app/watch/watch",
+    "pages/app/grade/grade",
+    "pages/app/me/me",
+    "pages/leader/nowBawei/nowBawei",
+    "pages/leader/BaweiLog/BaweiLog",
+    "pages/leader/BaweiTongJi/BaweiTongJi",
+    "pages/leader/leaderMe/leaderMe"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#8F8F94",
+    "selectedColor": "#3F536E",
+    "borderStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/app/historyLog/historyLog",
+        "text": "历史打靶",
+        "iconPath": "static/icon/history2.png",
+        "selectedIconPath": "static/icon/history.png"
+      },
+      {
+        "pagePath": "pages/app/watch/watch",
+        "text": "实时查看",
+        "iconPath": "static/icon/look2.png",
+        "selectedIconPath": "static/icon/look.png"
+      },
+      {
+        "pagePath": "pages/app/grade/grade",
+        "text": "成绩分析",
+        "iconPath": "static/icon/grade2.png",
+        "selectedIconPath": "static/icon/grade3.png"
+      },
+      {
+        "pagePath": "pages/app/me/me",
+        "text": "我的",
+        "iconPath": "static/icon/me2.png",
+        "selectedIconPath": "static/icon/me.png"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

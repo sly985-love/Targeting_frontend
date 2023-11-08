@@ -1,0 +1,143 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.page{
+	width: 100%;
+	height: auto;
+	/* background-color: #18BC37; */
+}
+
+.header{
+	width: 100%;
+	height: 98upx;
+	background-color: white;
+	border-bottom: #A5A5A5 3upx solid;
+	display: flex;
+}
+
+ .box_fixed{
+    width: 500px;
+    height: 40px;
+    border: 2px dashed pink;
+    border-radius: 20px;
+    margin: 0 auto;
+    line-height: 40px;
+    background: #eeeeee;
+  }
+  
+  .is_fixed{
+    position: fixed;
+    top: 0;
+    z-index: 999;
+  }
+  
+navigator{
+	width: 22%;
+	height: 86%;
+	/* background-color: #68ABDE; */
+	margin: 10upx;
+	font-size: 34upx;
+	color: #767676;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  }
+  
+.middle{
+	width: 100%;
+	height: auto;
+	margin-top: 20upx;
+	padding-bottom: 100upx;
+}
+
+.middle_btn{
+	width: 95%;
+	height: 78upx;
+	/* background-color: #23A6DD; */
+	margin-bottom: 4upx;	
+	display: flex;
+	justify-content: flex-end;
+}
+
+.middle_btn view{
+	width: 18%;
+	height: 85%;
+	background-color: #007AFF;
+	margin: 4upx;
+	border-radius: 10upx;
+	font-size: 32upx;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/* box-shadow: #A5A5A5 2upx 2upx 2upx; */
+}
+
+.middle_title{
+	width: 100%;
+	height: 110upx;
+	font-size: 44upx;
+	color: #3A3A3A;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	margin-bottom: 10upx;
+}
+
+.middle_content{
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 40upx;
+	padding-bottom: 100upx;
+}
+
+.middle_single{
+	width: 40%;
+	height: 290upx;
+	margin: 10upx 24upx 10upx 24upx ;
+	margin-bottom: 40upx;
+}
+
+.f_title{
+	width: 100%;
+	height: 12%;
+	background-color: #FAC858;
+	border: #FAC858 2px solid;
+	font-size: 28upx;
+	border-radius: 10upx 10upx 0upx 0upx;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+}
+
+.f_content{
+	width: 100%;
+	height: 73%;
+	display: flex;
+	flex-direction: column;
+	font-size: 26upx;
+	border: #FAC858 2px solid;
+	color: #3A3A3A;
+	/* margin-bottom: 100upx; */
+}
+
+.f_content p{
+	padding: 4upx 6upx 3upx 6upx;
+}
+
+.single_result{
+	width: 100%;
+	height: 15%;
+	background-color: white;
+	border: white 1px solid;
+	font-size: 25upx;
+	text-align: center;
+	color: #E43D33;
+	font-weight: 600;
+}
